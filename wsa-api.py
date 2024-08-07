@@ -1,8 +1,8 @@
 #!\usr\bin\python3
 """
-Script uses API to connect to Cisco WSA devices, gets some info and saves the output
+Script uses Cisco Web Security Appliance API to connect to Cisco WSA devices, gets some info and saves the output to a file.
 
-Usage: wsa-api.py [-d|-l] <device(s)> [-c|-x] <command(s)> [-j] <device+commands> [OPTIONs]
+Usage: wsa-api.py [-d] <single_device> [-j] <json_list_of_devices> [-c] <command>  [OPTIONs]
 COMMANDS:
 -h --help Help screen
 -g --debug Additional debug info
@@ -31,8 +31,9 @@ urllib3.disable_warnings()
 import logging
 
 # GLOBALS
-HELP = "Script uses API to connect to Cisco WSA devices, gets some info and saves the output\r\n\r\n \
-Usage: wsa-api.py [-d|-l] <device(s)> [-c|-x] <command(s)> [-j] <device+commands> [OPTIONs]\r\n\r\n \
+HELP = "Script uses Cisco Web Security Appliance API to connect to Cisco WSA devices,\r\n \
+gets some info and saves the output u a file\r\n\r\n \
+Usage: wsa-api.py [-d] <single_device> [-j] <json_list_of_devices> [-c] <command> [OPTIONs]\r\n\r\n \
 COMMANDS:\r\n \
 -h --help Help screen\r\n \
 -g --debug Additional debug info\r\n \
@@ -44,8 +45,6 @@ BASE_URL = 'http://172.30.92.11'
 BASE_SECURE_URL = 'https://172.30.92.11'
 BASE_PORT = ':6080'
 BASE_SECURE_PORT = ':6443'
-USERNAME = 'admin'
-PASSWORD = 'Ironport1!'
 
 # URIs
 AUTH_URI = '/wsa/api/v2.0/login' # autentikacija
