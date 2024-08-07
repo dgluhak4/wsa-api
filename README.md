@@ -7,7 +7,11 @@ Usage: wsa-api.py [-d] <single_device> [-j] <json_list_of_devices> [-c] <command
 COMMANDS:
 
 -h --help Help screen
+
 -g --debug Additional debug info
+
 -d --connect IP address of the single WSA device
+
 -j --json json formated file with list of WSA devices and respected commands (mandatory)
+
 -c --command single command to execute (mandatory)
