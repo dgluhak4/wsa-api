@@ -1,258 +1,322 @@
 {
   "172.30.92.11":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa01"
+    "hostname":"vcfwsa01",
+    "listed":"yes"
   },
   "172.30.92.12":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa02"
+    "hostname":"vcfwsa02",
+    "listed":"yes"
   },
   "172.30.92.13":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa03"
+    "hostname":"vcfwsa03",
+    "listed":"yes"
   },
   "172.30.92.14":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa04"
+    "hostname":"vcfwsa04",
+    "listed":"yes"
   },
   "172.30.92.15":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa05"
+    "hostname":"vcfwsa05",
+    "listed":"yes"
   },
   "172.30.92.16":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa06"
+    "hostname":"vcfwsa06",
+    "listed":"yes"
   },
   "172.30.92.17":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa07"
+    "hostname":"vcfwsa07",
+    "listed":"yes"
   },
   "172.30.92.18":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa08"
+    "hostname":"vcfwsa08",
+    "listed":"yes"
   },
   "172.30.92.19":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa09"
+    "hostname":"vcfwsa09",
+    "listed":"yes"
   },
   "172.30.92.20":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa10"
+    "hostname":"vcfwsa10",
+    "listed":"yes"
   },
   "172.30.92.21":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa11"
+    "hostname":"vcfwsa11",
+    "listed":"yes"
   },
   "172.30.92.22":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa12"
+    "hostname":"vcfwsa12",
+    "listed":"yes"
   },
   "172.30.92.23":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa13"
+    "hostname":"vcfwsa13",
+    "listed":"yes"
   },
   "172.30.92.24":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa14"
+    "hostname":"vcfwsa14",
+    "listed":"yes"
   },
   "172.30.92.25":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa15"
+    "hostname":"vcfwsa15",
+    "listed":"yes"
   },
   "172.30.92.26":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa16"
+    "hostname":"vcfwsa16",
+    "listed":"yes"
   },
   "172.30.92.27":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa17"
+    "hostname":"vcfwsa17",
+    "listed":"yes"
   },
   "172.30.92.28":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa18"
+    "hostname":"vcfwsa18",
+    "listed":"yes"
   },
   "172.30.92.29":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa19"
+    "hostname":"vcfwsa19",
+    "listed":"yes"
   },
   "172.30.92.30":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa20"
+    "hostname":"vcfwsa20",
+    "listed":"yes"
   },
   "172.30.92.31":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa21"
+    "hostname":"vcfwsa21",
+    "listed":"yes"
   },
   "172.30.92.32":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa22"
+    "hostname":"vcfwsa22",
+    "listed":"yes"
   },
   "172.30.92.33":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa23"
+    "hostname":"vcfwsa23",
+    "listed":"yes"
   },
   "172.30.92.34":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa24"
+    "hostname":"vcfwsa24",
+    "listed":"yes"
   },
   "172.30.92.35":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa25"
+    "hostname":"vcfwsa25",
+    "listed":"yes"
   },
   "172.30.92.36":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa26"
+    "hostname":"vcfwsa26",
+    "listed":"yes"
   },
   "172.30.92.37":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa27"
+    "hostname":"vcfwsa27",
+    "listed":"yes"
   },
   "172.30.92.38":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa28"
+    "hostname":"vcfwsa28",
+    "listed":"yes"
   },
   "172.30.92.39":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa29"
+    "hostname":"vcfwsa29",
+    "listed":"yes"
   },
   "172.30.92.40":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa30"
+    "hostname":"vcfwsa30",
+    "listed":"yes"
   },
   "172.30.92.41":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa31"
+    "hostname":"vcfwsa31",
+    "listed":"yes"
   },
   "172.30.92.42":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa32"
+    "hostname":"vcfwsa32",
+    "listed":"yes"
   },
   "172.30.92.43":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa33"
+    "hostname":"vcfwsa33",
+    "listed":"yes"
   },
   "172.30.92.44":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa34"
+    "hostname":"vcfwsa34",
+    "listed":"yes"
   },
   "172.30.92.45":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa35"
+    "hostname":"vcfwsa35",
+    "listed":"yes"
   },
   "172.30.92.46":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa36"
+    "hostname":"vcfwsa36",
+    "listed":"yes"
   },
   "172.30.92.47":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa37"
+    "hostname":"vcfwsa37",
+    "listed":"yes"
   },
   "172.30.92.48":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa38"
+    "hostname":"vcfwsa38",
+    "listed":"yes"
   },
   "172.30.92.49":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa39"
+    "hostname":"vcfwsa39",
+    "listed":"yes"
   },
   "172.30.92.50":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa40"
+    "hostname":"vcfwsa40",
+    "listed":"yes"
   },
   "172.30.92.51":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa41"
+    "hostname":"vcfwsa41",
+    "listed":"yes"
   },
   "172.30.92.52":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa42"
+    "hostname":"vcfwsa42",
+    "listed":"yes"
   },
   "172.30.92.53":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa43"
+    "hostname":"vcfwsa43",
+    "listed":"yes"
   },
   "172.30.92.54":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa44"
+    "hostname":"vcfwsa44",
+    "listed":"yes"
   },
   "172.30.92.55":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa45"
+    "hostname":"vcfwsa45",
+    "listed":"yes"
   },
   "172.30.92.56":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa46"
+    "hostname":"vcfwsa46",
+    "listed":"yes"
   },
   "172.30.92.57":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa47"
+    "hostname":"vcfwsa47",
+    "listed":"yes"
   },
   "172.30.92.58":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa48"
+    "hostname":"vcfwsa48",
+    "listed":"yes"
   },
   "172.30.92.59":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa49"
+    "hostname":"vcfwsa49",
+    "listed":"yes"
   },
   "172.30.92.60":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa50"
+    "hostname":"vcfwsa50",
+    "listed":"yes"
   },
   "172.30.92.61":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa51"
+    "hostname":"vcfwsa51",
+    "listed":"yes"
   },
   "172.30.92.62":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa52"
+    "hostname":"vcfwsa52",
+    "listed":"yes"
   },
   "172.30.92.63":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa53"
+    "hostname":"vcfwsa53",
+    "listed":"yes"
   },
   "172.30.92.64":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa54"
+    "hostname":"vcfwsa54",
+    "listed":"yes"
   },
   "172.30.92.65":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa55"
+    "hostname":"vcfwsa55",
+    "listed":"yes"
   },
   "172.30.92.66":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa56"
+    "hostname":"vcfwsa56",
+    "listed":"yes"
   },
   "172.30.92.67":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa57"
+    "hostname":"vcfwsa57",
+    "listed":"yes"
   },
   "172.30.92.68":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa58"
+    "hostname":"vcfwsa58",
+    "listed":"yes"
   },
   "172.30.92.69":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa59"
+    "hostname":"vcfwsa59",
+    "listed":"yes"
   },
   "172.30.92.70":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa60"
+    "hostname":"vcfwsa60",
+    "listed":"yes"
   },
   "172.30.92.71":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa61"
+    "hostname":"vcfwsa61",
+    "listed":"yes"
   },
   "172.30.92.72":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa62"
+    "hostname":"vcfwsa62",
+    "listed":"yes"
   },
   "172.30.92.73":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa63"
+    "hostname":"vcfwsa63",
+    "listed":"yes"
   },
   "172.30.92.74":{
     "device_type":"cisco_wsa",
-    "hostname":"vcfwsa64"
+    "hostname":"vcfwsa64",
+    "listed":"yes"
   }
 }
