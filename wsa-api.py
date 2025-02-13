@@ -52,7 +52,8 @@ BASE_SECURE_PORT = ':6443'
 AUTH_URI = '/wsa/api/v2.0/login' # autentikacija
 # CMD URIs
 SL_URI = '/wsa/api/v3.0/system_admin/smart_software_licensing_status'
-cmd_list = {"license": SL_URI}
+PROXY_URI = '/wsa/api/v3.0/generic_resources/proxy_settings'
+cmd_list = {"license": SL_URI, "proxy": PROXY_URI}
 
 # program exit function (with error message)
 def exit_error(err_message="Unknown error"):
@@ -112,7 +113,7 @@ def prepare_device_data(cmd_options):
     default_CMD = "license"
     default_LIST = "yes"
     default_DEBUG = False  #indicating that invoke should provide additional debug info about various variable values
-    cmd_list = ["license"]
+    #cmd_list = ["license"]
     
     global sys_params
     global device_list
@@ -204,15 +205,25 @@ def print_output(reachable_devices, unreachable_devices):
     print(reachable_devices)
     print(unreachable_devices)
   print("\r\nPopis uredjaja s podacima\r\n")
-  for wsa_device in reachable_devices:                
-    print(reachable_devices[wsa_device]["product_instance_name"] + ": " + wsa_device)
-    #print(": ")
-    #print(wsa_device) 
-    #print("\r\n")
-    print(reachable_devices[wsa_device]["smart_lic_status"]) 
-    #print("\r\n")
-    print(reachable_devices[wsa_device]["authorization_status"]) 
-    print("\r\n")
+  for wsa_device in reachable_devices:      
+    match sys_params["command"]:
+      case "license":          
+        print(reachable_devices[wsa_device]["product_instance_name"] + ": " + wsa_device)
+        #print(": ")
+        #print(wsa_device) 
+        #print("\r\n")
+        print(reachable_devices[wsa_device]["smart_lic_status"]) 
+        #print("\r\n")
+        print(reachable_devices[wsa_device]["authorization_status"]) 
+        print("\r\n")
+      case "proxy":
+        print(device_list[wsa_device]["hostname"] + ": " + wsa_device)
+        print("Status web proxy-a {}: ".format(reachable_devices[wsa_device]["proxy_settings"]["web"]))
+        print("Status HTTPs proxy-a {}: ".format(reachable_devices[wsa_device]["proxy_settings"]["https"]))
+        print("Status ftp proxy-a {}: ".format(reachable_devices[wsa_device]["proxy_settings"]["ftp"]))
+        print("Status socks proxy-a {}: ".format(reachable_devices[wsa_device]["proxy_settings"]["socks"]))
+      case _:
+        continue_error("Command not implemented!")
   print("\r\nPopis nedostupnih uredjaja\r\n")
   print(unreachable_devices)
 
@@ -248,9 +259,17 @@ def get_wsa_data(wsa_device, reachable_devices, unreachable_devices, wsa_api_com
         response = requests.get(cmd_secure_url, headers = headers, verify=False, timeout=(30,10))
         response.raise_for_status()
         if sys_params["debug"]:
-          print("\nThis is the response from device {} (def(main))".format(wsa_device))
+          print("\nThis is the response from device {} (def(get_wsa_data))".format(wsa_device))
           print_response(response)
         reachable_devices[wsa_device]=response.json()
+      case "proxy":
+        cmd_secure_url = "https://"+wsa_device+BASE_SECURE_PORT+wsa_api_command
+        response = requests.get(cmd_secure_url, headers = headers, verify=False, timeout=(30,10))
+        response.raise_for_status()
+        if sys_params["debug"]:
+          print("\nThis is the response from device {} (def(get_wsa_data))".format(wsa_device))
+          print_response(response)
+        reachable_devices[wsa_device]=response.json()        
       case _:
         unreachable_devices.append(wsa_device)
         continue_error("Command not implemented!")
